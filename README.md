@@ -1,24 +1,30 @@
 # Portfolio de Rafael Lanti Garrocho
 
-Portfolio personal desarrollado con **HTML y CSS separados**, preparado para publicarse en GitHub Pages.
+Portfolio estático creado con HTML y CSS, pensado para publicarse en GitHub Pages. El código está separado por páginas y usa una sola hoja de estilos compartida.
 
 ## Archivos
-- `index.html`: estructura y contenido del portfolio.
-- `styles.css`: diseño visual y adaptación a móvil.
+
+- `index.html`: portada.
+- `sobre-mi.html`: biografía y formación.
+- `habilidades.html`: conocimientos y competencias.
+- `proyectos.html`: proyectos y experiencias.
+- `proceso.html`: metodología de trabajo.
+- `contacto.html`: perfiles y contacto.
+- `css/styles.css`: todos los estilos compartidos.
 
 ## Antes de publicarlo
-1. Abre `index.html` y cambia `tu-correo@ejemplo.com` por tu correo real (aparece en los dos botones de contacto).
-2. Revisa el apartado del proyecto final y completa la descripción, tecnologías utilizadas y enlace al repositorio cuando tengas a mano el archivo del proyecto.
-3. Si quieres, cambia el enlace genérico de GitHub por tu perfil o repositorio.
 
-## Publicarlo con GitHub Pages
+1. Abre `contacto.html` y cambia `TU_CORREO@ejemplo.com` por tu correo.
+2. En `contacto.html`, reemplaza los `href="#"` de LinkedIn e Instagram por las URL reales de tus perfiles.
+3. Enlaza tus repositorios de GitHub y las webs publicadas en la sección de proyectos cuando tengas las URL.
+4. Revisa que los datos y resultados describan fielmente tu experiencia. Los diseños de las tarjetas de proyecto son ilustraciones hechas con CSS, no capturas de webs reales.
+
+## Publicar en GitHub Pages
+
 1. Crea un repositorio en GitHub, por ejemplo `portfolio`.
-2. Sube `index.html`, `styles.css` y este `README.md` a la raíz del repositorio.
-3. En el repositorio, entra en **Settings → Pages**.
-4. En **Build and deployment**, elige **Deploy from a branch**.
-5. Selecciona la rama `main` y la carpeta `/ (root)`, guarda y espera a que GitHub genere la web.
+2. Sube el contenido de esta carpeta a la raíz del repositorio (el archivo `index.html` debe quedar en la raíz).
+3. En el repositorio, abre **Settings → Pages**.
+4. En **Build and deployment**, selecciona **Deploy from a branch**, elige la rama `main` y la carpeta `/ (root)`, y guarda.
+5. Espera a que GitHub Pages publique la web y abre la dirección que te muestre.
 
-La dirección será parecida a `https://TU-USUARIO.github.io/portfolio/`.
-
-## Nota de privacidad
-La fecha de nacimiento no se ha incluido en la página pública porque normalmente no es necesaria en un portfolio y conviene evitar publicar datos personales completos. Puedes añadirla si realmente quieres, aunque suele ser mejor mostrar solo la información relevante para tu perfil profesional.
+No necesita JavaScript, instalación ni compilación. La fuente tipográfica se carga desde Google Fonts; si no está disponible, se usarán fuentes alternativas del sistema.
