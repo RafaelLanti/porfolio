@@ -1,30 +1,27 @@
 # Portfolio de Rafael Lanti Garrocho
 
-Portfolio estático creado con HTML y CSS, pensado para publicarse en GitHub Pages. El código está separado por páginas y usa una sola hoja de estilos compartida.
+Web estática en HTML y CSS, con una paleta clara y diseño adaptable. Todas las páginas comparten `css/styles.css`.
 
-## Archivos
-
-- `index.html`: portada.
+## Estructura
+- `index.html`: portada y resumen.
 - `sobre-mi.html`: biografía y formación.
-- `habilidades.html`: conocimientos y competencias.
-- `proyectos.html`: proyectos y experiencias.
+- `habilidades.html`: redes informáticas, desarrollo web, sistemas y competencias.
+- `proyectos.html`: experiencias prácticas.
 - `proceso.html`: metodología de trabajo.
-- `contacto.html`: perfiles y contacto.
-- `css/styles.css`: todos los estilos compartidos.
+- `contacto.html`: correo y perfiles sociales.
+- `css/styles.css`: estilos compartidos.
 
-## Antes de publicarlo
+## Antes de publicar
+1. En `contacto.html`, cambia `TU_CORREO@ejemplo.com` por tu correo.
+2. Cambia los enlaces `href="#"` de LinkedIn e Instagram por las URL reales.
+3. Añade enlaces a tus webs reales y, si tienes permiso, capturas de los proyectos.
+4. Revisa que los datos y las cifras reflejen tu experiencia. El incremento de visitas del club deportivo es un proyecto de comunicación digital, separado de tus conocimientos de redes informáticas.
 
-1. Abre `contacto.html` y cambia `TU_CORREO@ejemplo.com` por tu correo.
-2. En `contacto.html`, reemplaza los `href="#"` de LinkedIn e Instagram por las URL reales de tus perfiles.
-3. Enlaza tus repositorios de GitHub y las webs publicadas en la sección de proyectos cuando tengas las URL.
-4. Revisa que los datos y resultados describan fielmente tu experiencia. Los diseños de las tarjetas de proyecto son ilustraciones hechas con CSS, no capturas de webs reales.
+## GitHub Pages
+1. Crea un repositorio en GitHub.
+2. Sube los archivos a la raíz del repositorio, dejando `index.html` en la raíz.
+3. Ve a Settings → Pages.
+4. Selecciona Deploy from a branch, rama `main` y carpeta `/ (root)`.
+5. Guarda y espera a que GitHub Pages publique la web.
 
-## Publicar en GitHub Pages
-
-1. Crea un repositorio en GitHub, por ejemplo `portfolio`.
-2. Sube el contenido de esta carpeta a la raíz del repositorio (el archivo `index.html` debe quedar en la raíz).
-3. En el repositorio, abre **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**, elige la rama `main` y la carpeta `/ (root)`, y guarda.
-5. Espera a que GitHub Pages publique la web y abre la dirección que te muestre.
-
-No necesita JavaScript, instalación ni compilación. La fuente tipográfica se carga desde Google Fonts; si no está disponible, se usarán fuentes alternativas del sistema.
+No necesita JavaScript ni compilación. Las fuentes se cargan desde Google Fonts; si no hay conexión, se usan fuentes alternativas del sistema.
