@@ -25,3 +25,5 @@ Web estática en HTML y CSS, con una paleta clara y diseño adaptable. Todas las
 5. Guarda y espera a que GitHub Pages publique la web.
 
 No necesita JavaScript ni compilación. Las fuentes se cargan desde Google Fonts; si no hay conexión, se usan fuentes alternativas del sistema.
+
+\n## Añadir tu fotografía en la página de inicio\n\n1. Guarda tu foto en la carpeta `images` con el nombre `mi-foto.jpg`.\n2. La etiqueta `<img>` ya está añadida en `index.html`; no necesitas tocarla si usas ese nombre.\n3. Si tu imagen tiene otro nombre o formato, cambia el valor de `src` en esa etiqueta.\n\nLa foto se muestra en un marco vertical, con esquinas redondeadas y `object-fit: cover` para mantener sus proporciones.\n\n## Editar los estilos\n\n- `css/styles.css`: estilos generales compartidos por todo el portfolio y el diseño de la fotografía.\n- `css/paginas/index.css`, `sobre-mi.css`, `habilidades.css`, `proyectos.css`, `proceso.css` y `contacto.css`: archivos separados para añadir ajustes exclusivos de cada página.\n

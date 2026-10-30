@@ -1,0 +1,1 @@
+Guarda aquí tu fotografía con el nombre mi-foto.jpg, o cambia el atributo src de la etiqueta img en index.html.\n
